@@ -610,6 +610,7 @@ progress {
   max-width: 100%;
   height: auto;
 }
+
 .img-fluid2 {
   max-width: 100%;
   height: auto;
@@ -4056,7 +4057,7 @@ textarea.form-control-lg {
 .tab-content > .active {
   display: block;
 }
-.
+
 
 .navbar {
   position: relative;
@@ -11344,17 +11345,30 @@ html {
   line-height: 2rem;
 }
 
+/* li .mysql {
+  transform: scale(.25);
+  margin-bottom: 70%;
+} */
+.skills-list { 
+  display: inline-flex;
+  flex-wrap: wrap;
+
+}
+
 .skills-list ul{
   color: #2c3e50;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   display: inline-flex;
+  flex-wrap: wrap;
   list-style-type: none;
+  justify-content: center;
 }
 .skills-list ul li{
-  padding-right: .7rem;
+  padding: .5rem 2.5rem 1rem 2rem;
+  transform: scale(1.6);
 }
 .skills-list ul li:hover {
-  transform: scale(1.1);
+  transform: scale(2.1);
 }
 .skills-list ul .html:hover {
   color: red;
@@ -11670,7 +11684,7 @@ html {
   background-color: rgba(26, 188, 156, 0.9);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
-  opacity: 1;
+  /* opacity: 1; */
 }
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 1.5rem;
