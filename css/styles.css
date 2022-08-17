@@ -4575,6 +4575,23 @@ textarea.form-control-lg {
   border-top: 0;
 }
 
+.projectBtnWrapper {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.stoxster-rep{
+  border-style: solid;
+  color:  #2c3e50;
+  text-decoration: none;
+  /* margin-left: 40%; */
+  padding: 1%
+  
+  
+}
+
 .card-body {
   flex: 1 1 auto;
   padding: 1rem 1rem;
@@ -11404,6 +11421,20 @@ html {
 }
 .skills-list ul .git:hover {
   color:orangered;
+}
+
+.contact {
+  width: 50%;
+  justify-content: center;
+  display: flex;
+  align-content: center;
+}
+
+.formcontainer {
+  width: 50%;
+  justify-content: center;
+  display: flex;
+  align-content: center;
 }
 
 @media (min-width: 992px) {
