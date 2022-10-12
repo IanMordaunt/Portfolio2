@@ -11433,11 +11433,12 @@ html {
   align-content: center;
 }
 
-.formcontainer {
+.formcontainer h1 {
   width: 50%;
   justify-content: center;
-  display: flex;
+
   align-content: center;
+  text-align: center;
 }
 
 @media (min-width: 992px) {
